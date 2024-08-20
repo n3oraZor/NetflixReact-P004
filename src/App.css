@@ -9,6 +9,9 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+* {
+  transition: 2s;
+}
 header {
   width: 1080px;
 
@@ -39,5 +42,9 @@ header {
     height: 150px;
     width: auto;
     margin: 0 2px 0 2px;
+  }
+
+  img:hover {
+    transform: scale(1.02);
   }
 }
